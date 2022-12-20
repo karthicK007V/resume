@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(253, 254, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.full {
+    width: 50%;
+    max-width: 1000px;
+    min-height: 100px;
+    background-color: rgb(245, 239, 231);
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+}
+.left {
+    position: initial;
+    background-color: #f1f1f1;
+    background-color: rgb(117, 116, 115); 
+    padding: 20px;
+  
+}
+.right {
+    position: initial;
+    
+    background-color: #f1f1f1;
+    padding: 20px;
+  
+}
+ /* .Contact, .Skills, .Language, .Hobbies, .title, 
+.Summary, .Experience, .Education, .project {
+    margin-bottom: 30px;
+} */
+.contact p{
+    font-weight: 500;
+    margin: 7px;
+}
+.skills{
+    margin-top: 10px;
+    font-weight: 500;
+}
+.skills li{
+    list-style:square;
+    margin-top: 5px;
+}
+.Language li{
+    list-style-type:disc;
+    font-weight: 500;
+}
+.Language{
+    margin-top: 10px;
+}
+.title{
+    font-weight: 500;
+
+}
+.summary{
+    font-weight: 500;
+}
+.Education{
+    list-style:decimal-leading-zero;
+    font-weight: 500;
+  
+
+}
+.Education p{
+  
+    margin: 0%;
+ 
+
+}
+.project p{
+    margin: 0%;
+}
+.project{
+    font-weight: 500;
+    font-size: 20px;
+   
+
+}
+.project li{
+    list-style:outside;
+}
+a{
+    text-decoration:none !important;
+    color: black !important;
+    
+}
+a:hover{
+    color:crimson !important;
+}
